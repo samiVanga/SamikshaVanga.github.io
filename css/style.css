@@ -169,6 +169,27 @@ span.glyphicon.glyphicon-triangle-bottom {
   color: #000; /* Make arrows black */
   text-shadow: none; /* Remove any shadows */
 }
+.carousel-indicators {
+  bottom: -40px;
+  top: auto;
+  left: 50%;
+  transform: translateX(-50%);
+}
+#about .carousel-inner {
+  min-height: 300px; /* or adjust to fit your tallest slide */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#about .carousel-inner .item {
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+
 
 
 
